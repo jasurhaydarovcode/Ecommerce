@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #FBEBB5;
+}
+
+.container {
+    margin: 0 auto;
+}
