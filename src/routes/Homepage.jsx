@@ -18,6 +18,7 @@ import blogImg3 from '../assets/home/blogpost/Group 50.svg'
 import bgOur from '../assets/home/ourInsta/Group 43.png'
 
 import Footer from '../components/Footer'
+import { Helmet } from 'react-helmet'
 
 
 const divStyle = {
@@ -31,6 +32,10 @@ const divStyle = {
 const Homepage = () => {
   return (
     <>
+      <Helmet>
+        <title>Ecommers Home</title>
+      </Helmet>
+
       <Navbar />
 
       <div className='container'>

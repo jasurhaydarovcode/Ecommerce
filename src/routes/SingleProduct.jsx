@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
@@ -21,6 +22,12 @@ const SingleProduct = () => {
 
   return (
     <>
+
+      <Helmet>
+        <title>Ecommers Product</title>
+      </Helmet>
+
+
       <div className='bg-white'>
 
         <Navbar />
