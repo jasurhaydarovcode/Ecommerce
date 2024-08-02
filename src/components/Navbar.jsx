@@ -11,11 +11,11 @@ const Navbar = () => {
             <div className='container pt-10'>
                 <div className='flex gap-[150px] justify-end'>
                     <ul className='flex gap-10 font-semibold items-center text-xl'>
-                        <Link to="">
+                        <Link to="/">
                             <li>Home</li>
                         </Link>
-                        <Link to="">
-                            <li>Shop</li>
+                        <Link to="/singleproduct">
+                            <li>Product</li>
                         </Link>
                         <Link to="">
                             <li>About</li>
